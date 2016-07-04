@@ -1,5 +1,8 @@
 # notifications for grunt only
 module.exports =
+    index:
+        options:
+            message: 'index.hml copied'
     ngtemplates:
         options:
             message: 'Templates compiled'
@@ -15,3 +18,6 @@ module.exports =
     browserify:
         options:
             message: 'Browserify has finished'
+    data:
+        options:
+            message: 'Data updated'

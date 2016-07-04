@@ -1,0 +1,19 @@
+<div class="row">
+    <div class="col-sm-12">
+        <h3>{{lessonType}}</h3>
+    </div>
+
+    <p>{{audio}}</p>
+    <div class="col-sm-12">
+        <div class="flex-container">
+            <div
+                class="panel"
+                ng-repeat="word in randomWords track by $index"
+                ng-click="selectAnswer($index)"
+                ng-class="panels[$index]"
+            >
+                <img ng-src="img/{{randomWords[$index]}}.jpg">
+            </div>
+        </div>
+    </div>
+</div>

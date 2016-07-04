@@ -16,5 +16,13 @@ module.exports =
         files: ['<%= pkg.src %>/**/*.scss']
         tasks: ['sass:dist', 'cssmin', 'notify:scss']
 
+    data:
+        files: ['<%= pkg.src %>/data/**/*.json']
+        tasks: ['copy:data', 'notify:data']
+
+    index:
+        files: ['<%= pkg.src %>/index.html']
+        tasks: ['copy:index', 'notify:index']
+
     options:
         livereload: true

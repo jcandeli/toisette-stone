@@ -1,0 +1,24 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.panel {
+    width: 560px;
+    height: 385px;
+    overflow: hidden;
+    border: solid #fff 2px;
+
+    &.correct {
+        border-color: #15c715;
+    }
+
+    &.incorrect {
+        border-color: red;
+    }
+
+    img {
+        width: 100%;
+    }
+}
