@@ -22,4 +22,7 @@ angular.module('app').classy.controller(
 
         playAudio: () ->
             @$.audioPlayer.play()
+
+        getAudio: () ->
+            return "audio/#{@$.audio}.wav"
 )
