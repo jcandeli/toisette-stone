@@ -1,9 +1,11 @@
 {
     "lessons": [
+        "sayings",
         "colors",
         "objects",
         "dirctions",
         "verbs",
-        "adjectives"
+        "adjectives",
+        "numbers"
     ]
 }

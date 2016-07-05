@@ -27,6 +27,22 @@
         "tea",
         "water",
         "photo",
-        "chinese-people"
+        "chinese-people",
+        "today",
+        "tomorrow",
+        "yesterday",
+        "week",
+        "month",
+        "year",
+        "morning",
+        "day",
+        "night",
+        "mother",
+        "father",
+        "sister",
+        "brother",
+        "grandma",
+        "grandpa",
+        "wife"
     ]
 }
