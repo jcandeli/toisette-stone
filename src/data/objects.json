@@ -8,6 +8,7 @@
         "banana",
         "orange",
         "mango",
+        "fruit",
         "bathroom",
         "phone",
         "computer",
@@ -22,6 +23,10 @@
         "clothes",
         "pants",
         "shirt",
-        "shoes"
+        "shoes",
+        "tea",
+        "water",
+        "photo",
+        "chinese-people"
     ]
 }
