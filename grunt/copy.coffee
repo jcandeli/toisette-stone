@@ -6,4 +6,6 @@ module.exports =
     data:
         files: [{expand: true, flatten: true, src: ['<%= pkg.src %>/data/**/*.json'], dest: '<%= pkg.dest %>/data'}]
     images:
-        files: [{expand: true, flatten: true, src: ['<%= pkg.src %>/img/**/*.jpg', '<%= pkg.src %>/img/**/*.jpeg', '<%= pkg.src %>/img/**/*.png'], dest: '<%= pkg.dest %>/img'}]
+        files: [{expand: true, flatten: true, src: ['<%= pkg.src %>/img/**/*.jpg'], dest: '<%= pkg.dest %>/img'}]
+    audio:
+        files: [{expand: true, flatten: true, src: ['<%= pkg.src %>/audio/*.wav', '<%= pkg.src %>/audio/*.mp3'], dest: '<%= pkg.dest %>/audio'}]
